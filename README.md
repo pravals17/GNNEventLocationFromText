@@ -1,1 +1,1 @@
-# GNNEventLocationFromText
+In this project, a novel algorithm, Event-Specific Spatial Information Extractor, that uses a graph neural network (GNN) to identify the precise location of the event reported in documents. First, a named entity recognition (NER) system is used to identify all the place names mentioned in structured documents. Then, a graph is constructed for the place names utilizing their position of occurrence in the document. Finally, a GNN (SAGEConv) is trained to identify the precise location of the event described in the document based on the graphs. 
